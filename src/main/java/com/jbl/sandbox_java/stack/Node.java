@@ -1,6 +1,12 @@
 package com.jbl.sandbox_java.stack;
 
-
+/**
+ * Java Generic Node Type - For building data structures
+ * 
+ * @author jameslawrence
+ *
+ * @param <T>
+ */
 public class Node<T>{
 	private Node<T> next;
 	private T value;

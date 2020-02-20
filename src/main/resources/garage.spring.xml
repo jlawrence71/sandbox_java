@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://springframework.org/dtd/spring-beans.dtd">
+<beans>
+
+	<bean id="Car" class="com.jbl.garage.domain.Car" singleton="true">
+	  <property name="engine"><ref bean="Engine"/></property>
+	  <property name="transmission"><ref bean="Transmission"/></property>
+	  <property name="ac"><ref bean="Ac"/></property>
+	  <property name="direction"><ref bean="Direction"/></property>
+	  <property name="id"><ref bean="Id"/></property>
+	  <property name="id.maker"><value>Toyota</value></property>
+	  <property name="id.name"><value>Matrix</value></property>
+	</bean>
+
+	<bean id="Garage" class="com.jbl.garage.domain.Garage" singleton="true"></bean>
+
+	<bean id="Engine" class="com.jbl.garage.domain.Engine"></bean>
+	<bean id="Transmission" class="com.jbl.garage.domain.Transmission"></bean>
+	<bean id="Ac" class="com.jbl.garage.domain.AC"></bean>
+	<bean id="Direction" class="com.jbl.garage.domain.Direction"></bean>
+	<bean id="Id" class="com.jbl.garage.domain.Id"></bean>
+
+</beans>

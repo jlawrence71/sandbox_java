@@ -1,4 +1,4 @@
-package com.jbl.sandbox_java;
+package com.jbl;
 
 public class TestAbstract {
 

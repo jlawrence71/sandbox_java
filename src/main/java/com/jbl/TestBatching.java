@@ -1,4 +1,4 @@
-package com.jbl.sandbox_java;
+package com.jbl;
 
 import java.util.ArrayList;
 import java.util.List;

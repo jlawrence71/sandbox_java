@@ -1,4 +1,4 @@
-package com.jbl.sandbox_java.stack;
+package com.jbl.stack;
 
 public class EmptyStackException extends Exception {
 

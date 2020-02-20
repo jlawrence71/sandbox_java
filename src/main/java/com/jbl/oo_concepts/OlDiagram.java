@@ -1,4 +1,4 @@
-package com.jbl.sandbox_java.oo_concepts;
+package com.jbl.oo_concepts;
 
 //******************
 //JAVA OO Concepts

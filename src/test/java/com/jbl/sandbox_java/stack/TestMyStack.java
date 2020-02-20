@@ -2,8 +2,9 @@ package com.jbl.sandbox_java.stack;
 
 import org.junit.jupiter.api.Test;
 
-import com.jbl.sandbox_java.stack.MyStack;
-import com.jbl.sandbox_java.stack.Node;
+import com.jbl.stack.EmptyStackException;
+import com.jbl.stack.MyStack;
+import com.jbl.stack.Node;
 
 import static org.junit.Assert.*;
 import static org.junit.jupiter.api.Assertions.assertThrows;

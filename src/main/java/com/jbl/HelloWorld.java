@@ -1,4 +1,4 @@
-package com.jbl.sandbox_java;
+package com.jbl;
 
 import org.apache.log4j.Logger;
 
